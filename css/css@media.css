@@ -1,0 +1,10 @@
+body{
+    background-color: blueviolet;
+    
+}
+
+@media (max-width: 500px){
+    body{
+        background-color: tomato;
+    }
+}

@@ -1,0 +1,28 @@
+-----------novos inputs do HTML5
+
+search - abre botãozinho de limpar campo
+email - valida se é um email
+URL - valida se é uma URL
+tel - abre teclado de numeros
+number - abre setinhas para aumentar e diminuir numeros
+range - abre barra 
+date - formata data ou abre um calendário
+month - seleciona meses
+week - seleciona semanas
+time - seleciona horários
+datetime-local - seleciona data e hora
+color - seleciona cor
+
+------------tags semânticas
+
+aside, article, section, time
+section -- separa conteúdos em assuntos ajuda a ser encontrado nos motores de busca
+article -- "um conteúdo principal", motor de busca, olhe aqui para procurar palavras chave, etc
+aside -- "um conteúdo secundário", contráro ao article, anúncios etc
+
+O meu dia preferido é o <time datetime="1600-01-01">dia do meu aniversário</time> <!--essa não muda nada visualmente, mas ajuda
+os motores de busca, usa o formato internacional AAAA/MM/DD
+
+O google ama esse tipo de tag, porque dá tudo mastigadinho para ele
+
+------------tag video

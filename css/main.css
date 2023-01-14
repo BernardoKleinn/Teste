@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*corpo e fonte*/
+body{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+/*links*/
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+li a:hover{
+    color: rgb(255, 210, 10);
+    
+}
+/*container cabeçalho*/
+#cabecalho{
+    width: 100%;
+    background-color: rgb(255, 210, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+/*container menu*/
+#menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    list-style: none;
+    flex-wrap: wrap;
+}
+    .item-menu{
+        padding: 10px;
+        margin: 10px 3px;
+        border-radius: 5px;
+        color: aliceblue;
+    }
+    .item-menu:hover{
+        padding: 10px;
+        margin: 10px 3px;
+        background-color: aliceblue;
+        color: rgb(255, 210, 10);
+    }
+
+/*span*/
+#white{
+    color: aliceblue;
+}
+#caixa{
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    margin: 15px;
+    padding: 30px;
+}
+#caixa2{
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    margin: 15px;
+    padding: 30px;
+    
+}
+table{
+    width: 500px;
+    margin: 50px;
+    border-collapse:collapse;
+
+}
+th, td{
+    border: 0px;
+    padding: 10px;
+    font-weight: normal;
+
+}
+thead{
+    background-color: brown;
+}
+tbody{
+    background-color: rgb(218, 73, 73);
+}
+tbody tr:hover{
+    background-color: rgb(141, 45, 45);
+}
+tbody td:hover{
+    background-color: rgb(124, 36, 36);
+}
+form{
+    margin: 50px;
+}
+body .container{
+    color:rgb(124, 36, 36);
+}
+.container{
+    color: #FF0000;
+}
+.container{
+    color: #0000FF;
+}
+body main article .container{
+    color: #00FF00;
+}
+.item-intermediario{
+    color: #00FF00;
+}
+.box{
+    color: #FF0000;
+}
+
+.item-real{
+    border: 5px solid currentColor;
+
+}
+.imagem{
+    width: 300px;
+}
